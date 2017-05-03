@@ -1,0 +1,10 @@
+
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"].</h2>
+<p>Look at this chart!</p>
+
+@*@Html.Raw(ViewData["json"])*@
+
+@Html.Raw(ViewData["ChartMarkup"])
